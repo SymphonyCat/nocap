@@ -47,8 +47,7 @@ if "chat_history" not in st.session_state:
 
 # page title
 st.title("CircuitSage 🧠🤖")
-st.caption("Al terminar de usar el chat favor de realizar la siguiente encuesta")
-st.write("https://forms.gle/9Pq2kRkGftHZE8ew6")
+
 # the messages in chat_history will be stored as {"role":"user/assistant", "content":"msg}
 # display chat history
 for message in st.session_state.chat_history:
