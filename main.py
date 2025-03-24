@@ -48,6 +48,7 @@ if "chat_history" not in st.session_state:
 # page title
 st.title("Asistente Técnico De Hardware 🧠🤖")
 
+st.markdown("<h4 style='text-align: center; color: gray;'>Desarrollado por Rodrigo Montes de Oca Guarneros bajo la supervisión del Dr. Eddy Sánchez de la Cruz.</h4>", unsafe_allow_html=True)
 # the messages in chat_history will be stored as {"role":"user/assistant", "content":"msg}
 # display chat history
 for message in st.session_state.chat_history:
