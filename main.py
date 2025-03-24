@@ -13,7 +13,7 @@ def parse_groq_stream(stream):
 
 # streamlit page configuration
 st.set_page_config(
-    page_title="CircuitSage",
+    page_title="Asistente Técnico De Hardware",
     page_icon="🐱‍💻",
     layout="centered",
 )
@@ -46,7 +46,7 @@ if "chat_history" not in st.session_state:
     ]
 
 # page title
-st.title("CircuitSage 🧠🤖")
+st.title("Asistente Técnico De Hardware 🧠🤖")
 
 # the messages in chat_history will be stored as {"role":"user/assistant", "content":"msg}
 # display chat history
