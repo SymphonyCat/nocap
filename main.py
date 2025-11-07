@@ -3,7 +3,6 @@ from dotenv import dotenv_values
 import streamlit as st
 from groq import Groq
 
-
 def parse_groq_stream(stream):
     for chunk in stream:
         if chunk.choices:
