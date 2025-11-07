@@ -13,7 +13,7 @@ def parse_groq_stream(stream):
 
 # streamlit page configuration
 st.set_page_config(
-    page_title="Asistente Técnico De Hardware",
+    page_title="Hardware Technical Assistant",
     page_icon="🐱‍💻",
     layout="centered",
 )
@@ -46,9 +46,9 @@ if "chat_history" not in st.session_state:
     ]
 
 # page title
-st.title("Asistente Técnico De Hardware 🧠🤖")
+st.title("Hardware Technical Assistant 🧠🤖")
 
-st.markdown("Desarrollo del Tecnológico Nacional de México: Campus Valle de Bravo & Campus Misantla.")
+st.markdown("Development of Tecnológico Nacional de México: Campus Valle de Bravo & Campus Misantla.")
 # the messages in chat_history will be stored as {"role":"user/assistant", "content":"msg}
 # display chat history
 for message in st.session_state.chat_history:
@@ -58,7 +58,7 @@ for message in st.session_state.chat_history:
 
 
 # user input field
-user_prompt = st.chat_input("Preguntame")
+user_prompt = st.chat_input("Ask me")
 
 if user_prompt:
     # st.chat_message("user").markdown
